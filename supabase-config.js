@@ -10,7 +10,7 @@ window.SEE_PAY_SUPABASE_CONFIG = {
 // Never put a Paystack sk_test_ or sk_live_ secret key in browser code.
 window.SEE_PAY_PAYMENT_CONFIG = {
   provider: 'paystack',
-  publicKey: 'pk_test_6f4adddb729b95938e0cbbbe3df70641c7870fc4',
-  mode: 'test'
+  publicKey: 'pk_live_e56381c13c41dd2aaf9083ef518b77e4c95cc512',
+  mode: 'live'
 };
 // Never put a Supabase secret/service-role key or Paystack secret key in this file.
