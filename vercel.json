@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(?<shop>[a-z0-9][a-z0-9-]*)\\.seepay\\.shop"
+        }
+      ],
+      "destination": "/store.html?shop=:shop"
+    }
+  ]
+}
